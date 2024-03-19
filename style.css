@@ -3,11 +3,19 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    background-image: url("matrix.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
 } 
 
 #pageTitle {
     font-size: 48px;
     text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: "Courier New", sans-serif;
+    -webkit-text-stroke: 1px black;
 }
 
 #mainContent {
@@ -23,6 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
+    border-radius: 10px;
+    background-color: #0d5798;
 }
 
 #calculatorScreen {
@@ -31,18 +41,25 @@ body {
     border: 1px solid black;
     align-self: center;
     margin-top: 10px;
+    border-radius: 10px;
+    background-color: #b7b7b5;
 }
 
 .smallButton {
     height: 80px;
     width: 80px;
     font-size: 36px;
+    border-radius: 10px;
+    background-color: #9fb6d0;
 }
 
 .bigButton {
     height: 50px;
     width: 155px;
     margin: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    background-color: #c86a7e;
 }
 
 #firstRow, #secondRow, #thirdRow, #fourthRow, #fifthRow{
